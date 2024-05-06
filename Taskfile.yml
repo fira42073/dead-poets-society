@@ -1,0 +1,8 @@
+version: '3'
+
+tasks:
+  default:
+    silent: false
+    summary: "Live reloading present"
+    cmds:
+      - "reflex -r '\\.slide$' present"
